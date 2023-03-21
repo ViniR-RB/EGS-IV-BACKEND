@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 
-from .models import *
-from .serializers import *
+from .models import TodoModel
+from .serializers import TodoSerializer
 
 
 class TodoViewSet(viewsets.ModelViewSet):
